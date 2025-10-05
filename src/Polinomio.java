@@ -16,7 +16,7 @@ public abstract class Polinomio {
 
     // Metodo per stampare i coefficienti
     public void stampaCoefficienti() {
-        System.out.println("Coefficienti del polinomio:");
+        System.out.println("\nCoefficienti del polinomio:");
         for (int i = 0; i < coefficienti.size(); i++) {
             System.out.println("a" + i + " = " + coefficienti.get(i));
         }
@@ -25,9 +25,9 @@ public abstract class Polinomio {
     // Metodo per stampare le soluzioni
     public void stampaSoluzioni() {
         if (soluzioni.isEmpty()) {
-            System.out.println("Nessuna soluzione calcolata.");
+            System.out.println("\nNessuna soluzione calcolata.");
         } else {
-            System.out.println("Soluzioni trovate:");
+            System.out.println("\nSoluzioni trovate:");
             for (Double s : soluzioni) {
                 System.out.println(s);
             }

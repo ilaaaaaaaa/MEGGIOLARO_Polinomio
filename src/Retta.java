@@ -14,9 +14,9 @@ public class Retta extends Polinomio {
 
         if(a == 0){
             if (b == 0){
-                System.out.println("Equazione indeterminata: infinite soluzioni.");
+                System.out.println("\nEquazione indeterminata: infinite soluzioni.");
             } else {
-                System.out.println("Equazione impossibile: nessuna soluzione.");
+                System.out.println("\nEquazione impossibile: nessuna soluzione.");
             }
         } else {
             double x = -b / a;

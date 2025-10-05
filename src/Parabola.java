@@ -17,9 +17,9 @@ public class Parabola extends Polinomio {
         double delta = b * b - 4 * a * c;
 
         if (a == 0) {
-            System.out.println("Non è una parabola, ma una retta!");
+            System.out.println("\nNon è una parabola, ma una retta!");
         } else if (delta < 0) {
-            System.out.println("Nessuna soluzione reale.");
+            System.out.println("\nNessuna soluzione reale.");
         } else if (delta == 0) {
             double x = -b / (2 * a);
             soluzioni.add(x);

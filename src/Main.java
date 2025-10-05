@@ -11,7 +11,7 @@ public class Main {
         do{
             System.out.println("---ESERCIZIO SUI POLINOMI---");
             System.out.println("Menù: \n1. per risolvere l'equazione di una retta, \n2. per risolvere l'equazione di una parabola.");
-            System.out.println("Indica il numero dell'opzione: ");
+            System.out.print("Indica il numero dell'opzione: ");
 
             opzione = sc.nextInt();
         }while(opzione < 1 || opzione > 2);
@@ -22,10 +22,11 @@ public class Main {
 
         if (opzione == 1){
             // Inserimento dei parametri
-            System.out.println("Inserisci a: ");
+            System.out.print("\n----RETTA----\n");
+            System.out.print("Inserisci a: ");
             a = sc.nextDouble();
 
-            System.out.println("Inserisci b: ");
+            System.out.print("Inserisci b: ");
             b = sc.nextDouble();
 
             // Creazione dell'oggetto Retta
@@ -37,10 +38,11 @@ public class Main {
             r.stampaSoluzioni();
         } else {
             // Inserimento dei parametri
-            System.out.println("Inserisci a: ");
+            System.out.print("\n----PARABOLA----\n");
+            System.out.print("Inserisci a: ");
             a = sc.nextDouble();
 
-            System.out.println("Inserisci b: ");
+            System.out.print("Inserisci b: ");
             b = sc.nextDouble();
 
             System.out.println("Inserisci c: ");
